@@ -52,7 +52,7 @@ export default class screens extends Component {
                 this.setState({
                     messages: [{
                         message: 'Server connection is not yet configured. Please contact vendor administrator.',
-                        type: 'ERROR',
+                        type: 'WARNING',
                     }]
                 });
             }
