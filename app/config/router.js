@@ -7,12 +7,12 @@ import { View, Image, TouchableOpacity } from 'react-native';
 //import {DrawerNavigator, StackNavigator} from 'react-navigation';
 //For React Navigation 3.+ import following
 import {
-  createDrawerNavigator,
-  createStackNavigator,
   createAppContainer,
-  createBottomTabNavigator,
   createSwitchNavigator,
 } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import Ionicon from 'react-native-vector-icons/Ionicons';
